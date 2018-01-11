@@ -1,0 +1,32 @@
+/* admin/index.php */
+
+tbody {
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+[contenteditable=true]:empty:before{
+    content: attr(placeholder);
+}
+
+.bg-admin {
+    background-image: linear-gradient(
+            to top, 
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ), 
+        url(../../lib/img/bgImage.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-gallery {
+    top:0;
+    right:0;
+}
+
+#disconnect {
+    top: 10px !important;
+    right: 10px !important; 
+}
